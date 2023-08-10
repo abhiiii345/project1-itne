@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <title>WardWell Protocols</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+
+</head>
+<body>
+    
+</body>
+</html>
+
+<div class="navbar">
+    <div class="pages">
+         <a href="#">Home</a>
+         <a href="capsules.html">Capsules</a>
+         <a href="stake.html">Stake</a>
+         <a href="docs.html">Docs</a>
+    </div>
+    <div class="logo">
+        <img src="logo.png" alt="asset">
+    </div>
+    <div class="connect">
+        <button>Connect Wallet</button>
+    </div>
+   </div>
+<main class="container1">
+    <div class="content">
+      <div class="header">
+        <a href="index.html" class="back-link">Back to home</a>
+      </div>
+      <div class="token-info">
+        <div class="token-details">
+          <div class="token-title">
+            <img src="https://app.protectorate.xyz/assets//tokens/eth.svg" alt="Ethereum" class="token-icon">
+            <div class="token-name">ETH</div>
+          </div>
+          <div class="token-data">
+            <div class="data-row">
+              <div class="data-label">Total ETH Deposited</div>
+              <div class="data-value">149.10</div>
+              <div class="data-currency">$ 275,246.89</div>
+            </div>
+            <div class="data-row">
+              <div class="data-label">Net APR</div>
+              <div class="data-value">20.56%</div>
+              <div class="data-subvalue">4.27% from strategies</div>
+            </div>
+            <div class="data-row">
+              <div class="data-label">Your Balance</div>
+              <div class="data-value">0.00</div>
+              <div class="data-currency">$ 0.00</div>
+            </div>
+            <div class="data-row">
+              <div class="data-label">oPRTC Rewards</div>
+              <div class="data-value">0.00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tabs">
+        <button class="tab-button">About</button>
+        <button class="tab-button">Strategies</button>
+        <a href="https://etherscan.io/address/0xaF53431488E871D103baA0280b6360998F0F9926#code" target="_blank" class="external-link">
+          <svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" fill="none"  stroke-width="1.5" stroke="currentColor">
+            <path d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="tab-content">
+        <div class="tab-section">
+          <div class="section-title">Description</div>
+          <div class="section-content">
+            Deposits to the ETH Capsule will be wrapped into WETH and deployed into yield-bearing strategies.
+            When withdrawing, you'll receive your deposit plus compounded rewards in WETH.
+          </div>
+        </div>
+        <div class="tab-section">
+          <div class="section-title">APR</div>
+          <div class="section-content">
+            <div class="apr-data">
+              <div class="apr-label">ETH APR</div>
+              <div class="apr-value">4.98%</div>
+              <div class="apr-label">Minimum oPRTC APR</div>
+              <div class="apr-value">16.29%</div>
+              <div class="apr-label">Maximum oPRTC APR</div>
+              <div class="apr-value">162.86%</div>
+              <div class="apr-label">Gross APR</div>
+              <div class="apr-value">21.26%</div>
+              <div class="apr-label">Net APR</div>
+              <div class="apr-value">20.56%</div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-section">
+          <div class="section-title">Capsule Fees</div>
+          <div class="section-content">
+            <div class="fee-row">
+              <div class="fee-label">Deposit/Withdrawal fee</div>
+              <div class="fee-value">0%</div>
+            </div>
+            <div class="fee-row">
+              <div class="fee-label">Management fee</div>
+              <div class="fee-value">0%</div>
+            </div>
+            <div class="fee-row">
+              <div class="fee-label">Performance fee</div>
+              <div class="fee-value">20%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="action-section">
+        <div class="deposit-withdraw">
+          <button class="action-button">Deposit</button>
+          <button class="action-button">Withdraw</button>
+        </div>
+        <div class="transaction-details">
+          <div class="transaction-row">
+            <div class="transaction-label">From Wallet</div>
+            <div class="transaction-value">0.00 ETH</div>
+          </div>
+          <div class="transaction-row">
+            <div class="transaction-label">Amount</div>
+            <div class="transaction-value">
+              <input type="number" placeholder="0.00" class="transaction-input">
+              <div class="transaction-currency">$0.00</div>
+            </div>
+          </div>
+          <div class="transaction-row">
+            <div class="transaction-label">You will receive</div>
+            <div class="transaction-value">
+              <input type="number" placeholder="0.00" disabled class="transaction-input">
+              <div class="transaction-currency">WETH-PLV</div>
+            </div>
+          </div>
+          <button disabled class="action-button">Deposit</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  

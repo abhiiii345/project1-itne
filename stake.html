@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" class="text-gray-500 font-light bg-background overflow-x-hidden w-screen min-h-screen">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+  <title>WardWell Protocols</title>
+  <link rel="icon" type="image/x-icon" href="logo.png">
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<div class="navbar">
+  <div class="pages">
+    <a href="#">Home</a>
+    <a href="capsules.html">Capsules</a>
+    <a href="stake.html">Stake</a>
+    <a href="docs.html">Docs</a>
+  </div>
+  <div class="logo">
+    <img src="logo.png" alt="asset">
+  </div>
+  <div class="connect">
+    <button>Connect Wallet</button>
+  </div>
+</div>
+
+<main class="relative z-10 flex-1 h-full">
+  <div class="flex flex-col my-12">
+    <div class="relative flex flex-col md:px-8 p-4 gap item-center max-w w-full mx-auto">
+      <div class="text-sm">
+        <a class="item-center hover  ease-in-out duration transition-all gap-1 flex" src="back.png"
+          href="index.html">Back to home</a>
+      </div>
+      <div class="flex flex-col gap-12 py-2 item-center">
+        <div class="flex item-center gap-8">
+          <img alt="xPRTC" src="logo.png" style="color: transparent">
+          <div class="text-7xl font-bold text-white uppercase font-heading">Stake</div>
+          <div class="hidden text-3xl font-bold uppercase text-white block font-heading">PRTC </div>
+        </div>
+        <div class="grid grid-cols-2 gap-12 lg:grid-cols-4">
+          <div class="col-span-1">
+            <div class="flex flex-col gap-2">
+              <div class="text-sm text-gray-300 whitespace-nowrap">Staking APR</div>
+              <div class="text-4xl font-bold font-number whitespace-nowrap text-white">0.85%</div>
+            </div>
+          </div>
+          <div class="col-span-1">
+            <div class="flex flex-col gap-2">
+              <div class="text-sm text-gray-300 whitespace-nowrap">Total PRTC Staked</div>
+              <div class="text-4xl font-bold font-number whitespace-nowrap text-white">1.15M</div>
+            </div>
+          </div>
+          <div class="col-span-1">
+            <div class="flex flex-col gap-2">
+              <div class="text-sm text-gray-300 whitespace-nowrap">PRTC Circulating Supply</div>
+              <div class="text-4xl font-bold font-number whitespace-nowrap text-white">16.92M</div>
+            </div>
+          </div>
+          <div class="col-span-1">
+            <div class="flex flex-col gap-2">
+              <div class="text-sm text-gray-300 whitespace-nowrap">% Circulating Supply Staked</div>
+              <div class="text-4xl font-bold font-number whitespace-nowrap text-white">6.79%</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div
+      class="relative max-w-[1280px] p-4 px-6 md:px-8 w-full mx-auto grid max-w-2xl gap-6 lg:max-w-6xl lg:grid-cols-8">
+      <div class="lg:col-span-3">
+        <div class="w-full h-full rounded card-bg ">
+          <div class="flex items-center justify-between px-4 border-b border-white/25">
+            <div class="flex gap-8"><button
+                class="px-1 py-4 text-sm text-white border-b-2 border-white font-bold">Stake</button><button
+                class="px-1 py-4 text-sm cursor-pointer hover:text-white hover:text-shadow-sm transition-all duration-300 ease-in-out">Unstake</button>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="flex flex-col gap-4 text-sm text-gray-300">
+              <div class="grid grid-cols-2 gap-2">
+                <div class="flex flex-col gap-2">
+                  <div>From Wallet</div>
+                  <div class="relative h-full"><button
+                      class="flex flex-row items-center w-full h-full max-w-sm gap-2 px-2.5 py-1 text-sm bg-input-background ring-1 ring-gray-600"
+                      id="headlessui-listbox-button-:r0:" type="button" aria-haspopup="listbox" aria-expanded="false"
+                      data-headlessui-state=""><span class="flex items-center gap-2 truncate"><img alt="PRTC"
+                          loading="lazy" width="25" height="25" decoding="async" data-nimg="1" class="w-7"
+                          srcset="logo.png" src="logo.png" color: transparent;>PRTC</span><span
+                        class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none"><svg fill="none"
+                          viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+                          class="w-4 h-4">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
+                        </svg></span></button></div>
+                  <div class="text-xs font-number flex gap-1.5"><span class="hidden sm:block">You have</span> 0.00 PRTC
+                  </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <div>Amount</div>
+                  <div
+                    class="flex h-full relative flex-row items-center w-full gap-1 px-2.5 py-1.5 text-sm bg-input-background ring-1 ring-gray-600">
+                    <input step="any" placeholder="0.00"
+                      class="w-full px-1 text-white placeholder-gray-700 bg-transparent focus:ring-transparent active:ring-transparent"
+                      type="number" value="0">
+                  </div>
+                  <div class="text-xs font-number"> $0.00</div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-2">
+                <div>You will have</div>
+                <div class="flex items-center gap-2">
+                  <div
+                    class="flex h-full relative flex-row items-center w-full gap-1 px-2.5 py-1.5 text-sm bg-input-background ring-1 ring-gray-600">
+                    <img alt="xPRTC" loading="lazy" width="73" height="73" decoding="async" data-nimg="1" class="w-7"
+                      srcset="logo.png" src="/assets//tokens/xprtc.svg" style="color: transparent;"><input step="any"
+                      placeholder="0.00" disabled=""
+                      class="w-full px-1 text-white placeholder-gray-700 bg-transparent focus:ring-transparent active:ring-transparent"
+                      type="number" value="0">
+                  </div>
+                  <div class="whitespace-nowrap">xPRTC</div>
+                </div>
+                <div class="text-xs font-number"></div>
+              </div><button disabled=""
+                class="transition-all duration-300 ease-in-out px-3 text-sm py-2 ring-1 ring-inset ring-white text-gray-900 hover:bg-white bg-gray-300 opacity-50 cursor-default undefined">Stake</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:col-span-5">
+        <div class="w-full h-full rounded card-bg ">
+          <div class="flex items-center justify-between px-4 border-b border-white/25">
+            <div class="flex gap-8"><button
+                class="px-1 py-4 text-sm text-white border-b-2 border-white font-bold">Rewards</button></div>
+          </div>
+          <div class="p-4">
+            <div class="flex flex-col gap-6">
+              <div class="flex flex-col items-start gap-12 sm:items-center sm:flex-row">
+                <div class="flex gap-12">
+                  <div class="flex flex-col gap-2">
+                    <div class="text-sm text-gray-300 whitespace-nowrap">Your xPRTC Balance</div>
+                    <div class="text-4xl font-bold font-number whitespace-nowrap text-white">0.00</div>
+                    <div class="text-sm text-gray-300 whitespace-nowrap">$0.00</div>
+                  </div>
+                  <div class="flex flex-col gap-2">
+                    <div class="text-sm text-gray-300 whitespace-nowrap">Claimable WETH Rewards</div>
+                    <div class="text-4xl font-bold font-number whitespace-nowrap text-highlight text-shadow-highlight">
+                      0.00</div>
+                    <div class="text-sm text-gray-300 whitespace-nowrap">$0.00</div>
+                  </div>
+                </div>
+                <div class="flex flex-col w-full gap-3"><button disabled=""
+                    class="transition-all duration-300 ease-in-out px-3 text-sm py-2 ring-1 ring-inset ring-white text-gray-900 hover:bg-white bg-gray-300 opacity-50 cursor-default bg-transparent text-white hover:bg-white/10 font-bold ring-white/60 hover:ring-white/80 undefined">Claim
+                    Rewards</button><button disabled=""
+                    class="transition-all duration-300 ease-in-out px-3 text-sm py-2 ring-1 ring-inset ring-white text-gray-900 hover:bg-white bg-gray-300 opacity-50 cursor-default ring-opacity-80 hover:ring-opacity-100 relative group bg-transparent hover:!bg-transparent hover:!ring-[#FF4A00] !ring-[#FF4A00]/80 text-white font-bold undefined">
+                    <div
+                      class="bg-gradient-to-r transition-all duration-300 ease-in-out from-[#FF2E00] via-[#FF4A00] z-0 to-[#FF8E33] opacity-60 group-hover:opacity-80 absolute inset-0">
+                    </div>
+                    <div class="relative z-10">Claim &amp; Compound</div>
+                  </button></div>
+              </div>
+              <div class="h-[1.5px] w-full bg-gray-300 mt-6"></div>
+              <div class="pb-4 text-sm text-gray-200">By staking your PRTC for xPRTC, your staked position will accrue
+                rewards generated by protocol revenues. For more information, refer to the <a class="underline"
+                  target="_blank" href="docs.html">docs</a>.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="relative max-w-[1280px] p-4 px-6 md:px-8 w-full mx-auto undefined">
+      <div class="flex flex-col items-center justify-end gap-8 py-3 border-t border-gray-500 md:flex-row">
+        <div class="flex items-center gap-8 py-3"><a
+            class="text-sm transition-all duration-300 ease-in-out hover:text-white hover:text-shadow"
+            href="https://gitbook.protectorate.xyz">Docs</a><a
+            class="text-sm transition-all duration-300 ease-in-out hover:text-white hover:text-shadow"
+            href="https://twitter.com/Protectoratexyz">Twitter</a><a
+            class="text-sm transition-all duration-300 ease-in-out hover:text-white hover:text-shadow"
+            href="https://mirror.xyz/0x1a61d6736eA5D3AA9aC6982a583fC15f0aaDF427">Mirror</a><a
+            class="text-sm transition-all duration-300 ease-in-out hover:text-white hover:text-shadow"
+            href="https://discord.com/invite/protectorate">Discord</a></div><img alt="" loading="lazy" width="60.28"
+          height="64" decoding="async" data-nimg="1" class="w-5" srcset="logo.png"
+          src="/assets/logo.svg" style="color: transparent;">
+        <div class="text-xs">©️ 2023 Protecc Labs. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+</main>
